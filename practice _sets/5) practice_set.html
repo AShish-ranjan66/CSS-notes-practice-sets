@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            background-color: darkseagreen;
+            height: 30px;
+            padding-top: 5px;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        nav a{
+            text-decoration: none;
+            font-size: 20px;
+           
+        }
+        img{
+            height: 300px;
+
+        }
+        #img_container{
+            background-color:burlywood;
+            border: 3px solid black;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+        }
+
+        .box{
+            
+            width: 100px;
+            text-align: center;
+            background-color: darkkhaki;
+            border: 2px solid red;
+        }
+
+        #box_container{
+            height: 120px;
+            width: 400px;
+            border: 3px solid black;
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        #box2{
+            flex-grow: 1;
+            flex-shrink: 1;
+    }
+
+    #media_box{
+        height: 50px;
+        width: 50px;
+        margin: 15px;
+        background-color: green;
+    }
+    
+   @media screen and (min-width: 300px) and (max-width: 400px ){
+     #media_box{
+        
+        background-color: red;
+
+    }
+   }
+
+   @media screen and (min-width: 400px) {
+     #media_box{
+        
+        background-color: blue;
+
+    }
+   }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Contact Us</a>
+            <a href="">Product</a>
+            <a href="">Help</a>
+        </nav>
+    </header>
+    <main>
+        <div id="img_container">
+            <img src="/images/pic2.png" alt="">
+        </div>
+
+        <div id="box_container">
+
+            <div id="box1" class="box">Box 1</div>
+            <div id="box2" class="box">Box 2</div>
+            <div id="box3" class="box">Box 3</div>
+
+        </div>
+    </main>
+
+<br><br><hr>
+    <div id="media_box">Media Box</div>
+    
+</body>
+</html>

@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #heading {
+            font-size: 40px;
+            margin-left: 220px;
+            position: relative;
+            right: 200px;
+            
+        }
+        
+        #container{
+            height: 200px;
+            width: 300px;
+            border: 3px solid black;
+            background-color: lavender;
+            display: flex;
+            flex-direction: row-reverse;
+            margin: 0;
+        }
+
+        
+        .box{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border: 3px solid black;
+            text-align: center;
+            border-radius: 15px;
+        }
+        #box1{
+            background-color: aqua;
+        }
+        #box2{
+            background-color: blueviolet;
+            flex-shrink: 2;
+        }
+
+        /* using flex-shrink you can decide the quantity of shrinking of an perticular element or block ... here we have given the flex-shrink:2 it means the box2 is 2x more shrink than other . and if we have gave 0.5 then the box2 will shrink 0.5x less than the others. and if we gave 0 then others will shrink but the box2 will not shrink. */
+
+
+        #box3{
+            background-color: chartreuse;
+            
+        }
+        #box4{
+            background-color: darkblue;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1 id="heading">Flex Box <span style="color: darkslateblue; font-size: 10px;">(using flex-shrink property.)</span></h1>
+    <div id="container">
+        <div id="box1" class="box">box1</div>
+        <div id="box2" class="box">box2</div>
+        <div id="box3" class="box">box3</div>
+        <div id="box4" class="box">box4</div>
+
+       
+    </div>
+
+</body>
+</html>

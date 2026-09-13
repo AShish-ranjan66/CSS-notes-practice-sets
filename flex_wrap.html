@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #heading {
+            font-size: 40px;
+            margin-left: 220px;
+            
+        }
+        #heading2{
+            font-size: 40px;
+            position: relative;
+            top: -652px;
+            left: 940px;
+        }
+        #container{
+            height: 600px;
+            width: 600px;
+            border: 3px solid black;
+            background-color: lavender;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0;
+            /* flex-wrap helps when we adjust the size of the container the box inside it also adjust the space and size according to the size of the box. */
+        }
+        
+        .box{
+            height: 70px;
+            width: 70px;
+            margin: 10px;
+            border: 3px solid black;
+            text-align: center;
+            border-radius: 15px;
+        }
+        #box1{
+            background-color: aqua;
+        }
+        #box2{
+            background-color: blueviolet;
+        }
+        #box3{
+            background-color: chartreuse;
+        }
+        #box4{
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <div id="box1" class="box">box1</div>
+        <div id="box2" class="box">box2</div>
+        <div id="box3" class="box">box3</div>
+        <div id="box4" class="box">box4</div>
+
+    </div>
+    
+</body>
+</html>

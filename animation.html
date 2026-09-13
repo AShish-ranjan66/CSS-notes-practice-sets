@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(246, 225, 141);
+}
+        #h1{
+            background-color: aquamarine;
+            height: 70px;
+            font-size: 50px;
+            text-align: center;
+            padding: 10px;
+        }
+        .box{
+        position: relative;
+            height: 200px;
+            width: 200px;
+            background-color: chocolate;
+            font-size: 40px;
+            text-align: center;
+            border: 2px solid black;
+            margin: 50px;
+
+
+
+            animation-name: ash;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 0s;
+
+            animation-iteration-count: infinite;
+
+            animation-direction: alternate;
+
+
+        }
+
+        @keyframes ash {
+
+            from {left: 10px;}
+            
+            to {left: 200px;}
+        }
+    </style>
+</head>
+<body>
+    <h1 id="h1">Animation Property</h1>
+    <div id="box" class="box">Animate</div>
+</body>
+</html>

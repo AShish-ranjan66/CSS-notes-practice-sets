@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #border{
+            height: 90px;
+            width: 90px;
+            background-color: chartreuse;
+            padding: 10px;
+            margin: 15px;
+            border: 10px dashed black;
+            border-radius: 15px;
+            box-sizing: border-box;
+        }
+        #border2{
+            height: 90px;
+            width: 90px;
+            background-color: brown;
+            padding: 10px;
+            margin: 15px;
+            border: 10px solid red;
+            border-radius: 15px 15px 50px 15px;
+            box-sizing: border-box;
+        }
+        #border3{
+            height: 90px;
+            width: 90px;
+            background-color: blueviolet;
+            padding: 10px;
+            margin: 15px;
+            border: 10px dotted green;
+            border-radius: 15px 45px 15px 45px;
+            box-sizing: content-box;
+        }
+        /* you can also change the border of radius according to you how much curve you want by setting their radius value   */
+        /* you can also change the border boxing size by changing their default value from content-box to boder box . you can see that border-box can manage the box size and fix the size of box which you have given for example :- if you have given:-
+        50*50  height and width and then 10px of padding and 10 px of border content-box make the size of the box to 70*70.
+        but in border-box it will manage the given padding and border value inside the 50*50 and keep the box size same. */
+    </style>
+</head>
+<body>
+    <div id="border">border checker box </div>
+    <div id="border2">border checker box2</div>
+    <div id="border3">border checker box3</div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+/* this is used for commenting , here we will write our css code which will be used to style the html elements. */
+
+/* h1 {
+    color: blue;
+}
+
+p {
+    color: red;
+} */
+
+
+
+
+/*
+
+this is used for id selector :-
+
+#main-heading {
+    color: blue;
+}
+
+#paragraph {
+    color: red;
+
+}
+
+#Second_heading {
+    color: green;
+}
+
+#Third_heading {
+    color: violet;
+}
+
+#Fourth_heading {
+    color: orange;
+} */
+
+
+
+
+
+
+/*
+this is used for class selector :-
+
+#main-heading {
+    color: blue;
+}
+
+.text {
+    color: red;
+}
+.text-2 {
+    color: green;
+}
+
+#second-heading {
+    color: violet;
+} */
+
+ 
+
+
+
+/* 
+this is used for grouping selector :-
+
+#main-heading , #paragraph , h2, h3, h4{
+    color: hotpink;
+} */
+
+/* 
+it is used for decendant selector :-
+#first p {
+    color: red;
+}
+
+here you can see that the color of the paragraph is red because it is a decendant of the id first.
+
+*/
+
+
+
+        /* 
+        this is used for background colour and text colour :-
+        
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        #first {
+            color: white;
+            background-color: black;
+        } 
+        
+        #second {
+            color: indianred;
+            background-color: green ;
+        }
+
+        button{
+            color: black;
+            background-color: lightgray;
+
+
+        } */

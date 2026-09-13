@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            padding: 10px;
+            background-color: darkgoldenrod;
+            height: 200px;
+            width: 200px;
+            font-size: 50px;
+            text-align: center;
+
+        }
+
+/*  according to here the min and max will define that if the page width is between then the specification or attributes  you provided will be applied. */
+
+        @media screen and (max-width: 400px) and (min-width: 300px){
+            .box{
+
+                border-radius: 50%;
+                background-color: blueviolet;
+                border: 5px solid red;
+            }
+            
+        }
+        /* in media queries you can the change the attributes of the element or block according the size of page or the condition you provided. */
+    </style>
+</head>
+<body>
+    <div class="box"> Box</div>
+</body>
+</html>

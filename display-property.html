@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1 , .box2{
+            height: 100px;
+            width: 100px;
+            background-color: blueviolet;
+            margin: 5px;
+            border-radius: 20px;
+            text-align: center;
+            border: 5px solid black;
+            display: block;
+            /* in div we ahve the default value of balock element , so the block element covers the whole line of space according to its size. */
+        }
+
+        .box3{
+            height: 100px;
+            width: 100px;
+            background-color: blueviolet;
+            margin: 15px;
+            border-radius: 20px;
+            text-align: center;
+            border: 5px solid black;
+            display:inline-block;
+        }
+
+        .box4 {
+            height: 100px;
+            width: 100px;
+            background-color: blueviolet;
+            margin: 5px;
+            border-radius: 20px;
+            text-align: center;
+            border: 5px solid black;
+            display: inline-block;
+            /* inline-block element only covers the space which was given as the size of the box.  */
+        }
+
+        .box5{
+            height: 100px;
+            width: 100px;
+            background-color: blueviolet;
+            margin: 35px;
+            border-radius: 20px;
+            text-align: center;
+            border: 5px solid black;
+            display: inline;
+
+            /* you can not define height and width of a inline element , and the we used inline element after inline blcok element so the inline block element covers only the space of box and then because we used inline in next code so thats why it started from the same line.  */
+        }
+        #box6{
+            display: none;
+            /* display none used for remove the block or element from the screen clearly, bacause if we use visibility = hidden , it just hides the block or element not remove the space covered by it.  */
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box1">box 1</div>
+    <di class="box2">box 2</di>
+    <di class="box3">box 3</di>
+    <div class="box4">box 4</div>
+    <div class="box5">box 5</div>
+    <div id="box6">box 6</div>
+</body>
+</html>
